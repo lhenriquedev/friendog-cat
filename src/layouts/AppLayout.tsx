@@ -8,7 +8,7 @@ export const AppLayout = () => {
     <div className="grid grid-rows-[6.875rem_1fr] grid-cols-[350px_1fr] h-screen">
       <Header />
       <Sidebar />
-      <main>
+      <main className="overflow-y-scroll">
         <Outlet />
       </main>
     </div>

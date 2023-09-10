@@ -9,7 +9,7 @@ export function SidebarFilter() {
         <Filter
           filterName="age"
           options={[
-            { label: 'Todos', value: 'todos' },
+            { label: 'Todos', value: 'all' },
             { label: 'Filhotes', value: 'filhotes' },
             { label: 'Adultos', value: 'adultos' },
             { label: 'Idosos', value: 'idosos' },
@@ -24,7 +24,7 @@ export function SidebarFilter() {
         <Filter
           filterName="energy"
           options={[
-            { label: 'Todos', value: 'todos' },
+            { label: 'Todos', value: 'all' },
             { label: '01', value: '1' },
             { label: '02', value: '2' },
             { label: '03', value: '3' },
@@ -39,7 +39,7 @@ export function SidebarFilter() {
         <Filter
           filterName="size"
           options={[
-            { label: 'Todos', value: 'todos' },
+            { label: 'Todos', value: 'all' },
             { label: 'Pequeno', value: 'pequeno' },
             { label: 'Médio', value: 'medio' },
             { label: 'Grande', value: 'grande' },
@@ -54,7 +54,7 @@ export function SidebarFilter() {
         <Filter
           filterName="independency"
           options={[
-            { label: 'Todos', value: 'todos' },
+            { label: 'Todos', value: 'all' },
             { label: 'Pequeno', value: 'pequeno' },
             { label: 'Médio', value: 'medio' },
             { label: 'Grande', value: 'grande' },

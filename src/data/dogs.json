@@ -1,0 +1,204 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Fido",
+      "type": "cachorro",
+      "age": 3,
+      "color": "marrom",
+      "breed": "Labrador Retriever",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/breeds/image/random"
+    },
+    {
+      "id": 2,
+      "name": "Whiskers",
+      "type": "gato",
+      "age": 2,
+      "color": "cinza",
+      "breed": "Siamese",
+      "is_adopted": false,
+      "photo": "https://images.unsplash.com/photo-1592194996292-08fc5f3f5c22"
+    },
+    {
+      "id": 3,
+      "name": "Buddy",
+      "type": "cachorro",
+      "age": 5,
+      "color": "preto",
+      "breed": "Golden Retriever",
+      "is_adopted": true,
+      "photo": "https://dog.ceo/api/img/retriever/n02096585_1205.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Mittens",
+      "type": "gato",
+      "age": 1,
+      "color": "branco",
+      "breed": "Persa",
+      "is_adopted": false,
+      "photo": "https://images.unsplash.com/photo-1555685812-3a67748a4b40"
+    },
+    {
+      "id": 5,
+      "name": "Rex",
+      "type": "cachorro",
+      "age": 4,
+      "color": "amarelo",
+      "breed": "Bulldog",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/bulldog/n02096585_5051.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Luna",
+      "type": "cachorro",
+      "age": 2,
+      "color": "preto",
+      "breed": "Dachshund",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/dachshund/n02096585_1585.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Oliver",
+      "type": "gato",
+      "age": 3,
+      "color": "laranja",
+      "breed": "Maine Coon",
+      "is_adopted": true,
+      "photo": "https://images.unsplash.com/photo-1586367657418-08e2b9d4b07d"
+    },
+    {
+      "id": 8,
+      "name": "Bella",
+      "type": "cachorro",
+      "age": 1,
+      "color": "marrom",
+      "breed": "Poodle",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/poodle/n02096585_1294.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Simba",
+      "type": "gato",
+      "age": 2,
+      "color": "amarelo",
+      "breed": "Bengal",
+      "is_adopted": false,
+      "photo": "https://images.unsplash.com/photo-1515104621774-e2d27c1d4b63"
+    },
+    {
+      "id": 10,
+      "name": "Rocky",
+      "type": "cachorro",
+      "age": 4,
+      "color": "preto e branco",
+      "breed": "Boxer",
+      "is_adopted": true,
+      "photo": "https://dog.ceo/api/img/boxer/n02096585_8971.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Mia",
+      "type": "gato",
+      "age": 1,
+      "color": "cinza",
+      "breed": "Scottish Fold",
+      "is_adopted": false,
+      "photo": "https://images.unsplash.com/photo-1533743983669-ef06f2d20c75"
+    },
+    {
+      "id": 12,
+      "name": "Teddy",
+      "type": "cachorro",
+      "age": 3,
+      "color": "creme",
+      "breed": "Shih Tzu",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/shihtzu/n02096585_3063.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Lily",
+      "type": "gato",
+      "age": 2,
+      "color": "preto e branco",
+      "breed": "British Shorthair",
+      "is_adopted": true,
+      "photo": "https://images.unsplash.com/photo-1584702250908-0636c2d08cfd"
+    },
+    {
+      "id": 14,
+      "name": "Max",
+      "type": "cachorro",
+      "age": 5,
+      "color": "dourado",
+      "breed": "German Shepherd",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/shepherd/n02096585_10047.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Oreo",
+      "type": "gato",
+      "age": 2,
+      "color": "preto e branco",
+      "breed": "Domestic Shorthair",
+      "is_adopted": false,
+      "photo": "https://images.unsplash.com/photo-1560807707-8cc77767d783"
+    },
+    {
+      "id": 16,
+      "name": "Bailey",
+      "type": "cachorro",
+      "age": 3,
+      "color": "marrom e branco",
+      "breed": "Beagle",
+      "is_adopted": true,
+      "photo": "https://dog.ceo/api/img/beagle/n02096585_1937.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Charlie",
+      "type": "gato",
+      "age": 4,
+      "color": "preto",
+      "breed": "Russian Blue",
+      "is_adopted": false,
+      "photo": "https://images.unsplash.com/photo-1505826759037-406b40feb3c4"
+    },
+    {
+      "id": 18,
+      "name": "Cooper",
+      "type": "cachorro",
+      "age": 2,
+      "color": "marrom",
+      "breed": "Cocker Spaniel",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/cocker/n02096585_9005.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Lucy",
+      "type": "gato",
+      "age": 3,
+      "color": "laranja e branco",
+      "breed": "Ragdoll",
+      "is_adopted": true,
+      "photo": "https://images.unsplash.com/photo-1601755474920-eba4e12896db"
+    },
+    {
+      "id": 20,
+      "name": "Duke",
+      "type": "cachorro",
+      "age": 4,
+      "color": "preto",
+      "breed": "Doberman",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/doberman/n02096585_6099.jpg"
+    }
+  ]
+}

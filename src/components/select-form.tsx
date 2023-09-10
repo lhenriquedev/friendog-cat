@@ -4,7 +4,7 @@ import {
   SelectValue,
   SelectContent,
   SelectItem,
-} from './ui/select'
+} from '@/components/ui/select'
 
 export type SelectOptionsProps = {
   label: string
@@ -25,7 +25,7 @@ export function SelectForm({ onChange, options, value }: SelectFormProps) {
       <SelectContent className="bg-brand-500 border-brand-500">
         {options.map((option) => (
           <SelectItem
-            className="text-slate-100"
+            className="text-center text-slate-100"
             key={option.value}
             value={option.value}
           >
