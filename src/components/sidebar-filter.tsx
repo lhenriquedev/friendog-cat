@@ -5,7 +5,7 @@ export function SidebarFilter() {
   return (
     <>
       <li className="w-full">
-        <Label className="inline-block mb-2 text-slate-100">Idade</Label>
+        <Label className="inline-block mb-2 text-brand-900">Idade</Label>
         <Filter
           filterName="age"
           options={[
@@ -18,7 +18,7 @@ export function SidebarFilter() {
       </li>
 
       <li className="w-full">
-        <Label className="inline-block mb-2 text-slate-100">
+        <Label className="inline-block mb-2 text-brand-900">
           Nivel de energia
         </Label>
         <Filter
@@ -33,7 +33,7 @@ export function SidebarFilter() {
       </li>
 
       <li className="w-full">
-        <Label className="inline-block mb-2 text-slate-100">
+        <Label className="inline-block mb-2 text-brand-900">
           Porte do aniaml
         </Label>
         <Filter
@@ -48,7 +48,7 @@ export function SidebarFilter() {
       </li>
 
       <li className="w-full">
-        <Label className="inline-block mb-2 text-slate-100">
+        <Label className="inline-block mb-2 text-brand-900">
           Nivel de independência
         </Label>
         <Filter

@@ -19,7 +19,7 @@ type SelectFormProps = {
 export function SelectForm({ onChange, options, value }: SelectFormProps) {
   return (
     <Select onValueChange={onChange} value={value}>
-      <SelectTrigger className="w-full bg-brand-400 rounded-2xl border-brand-400 text-slate-100">
+      <SelectTrigger className="w-full bg-white rounded-lg border-brand-400 text-brand-900">
         <SelectValue placeholder="Selecione uma idade" />
       </SelectTrigger>
       <SelectContent className="bg-brand-500 border-brand-500">
