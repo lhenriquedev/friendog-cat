@@ -3,202 +3,344 @@
     {
       "id": 1,
       "name": "Fido",
-      "type": "cachorro",
+      "type": "Cachorro",
       "age": 3,
-      "color": "marrom",
+      "color": "Marrom",
       "breed": "Labrador Retriever",
       "is_adopted": false,
-      "photo": "https://dog.ceo/api/breeds/image/random"
+      "photo": "https://dog.ceo/api/img/labrador/n02096585_4634.jpg",
+      "energy": "Alta",
+      "characteristic": "Amigável e brincalhão",
+      "size": "Grande",
+      "adoption_requirements": [
+        "Quintal cercado",
+        "Estilo de vida ativo",
+        "Experiência prévia com cães"
+      ],
+      "description": "Fido é um Labrador Retriever de alta energia que adora brincar de pegar a bola e fazer longas caminhadas. Ele é amigável tanto com pessoas quanto com outros cães e seria um ótimo companheiro para uma família ativa."
     },
     {
       "id": 2,
       "name": "Whiskers",
-      "type": "gato",
+      "type": "Gato",
       "age": 2,
-      "color": "cinza",
+      "color": "Cinza",
       "breed": "Siamese",
       "is_adopted": false,
-      "photo": "https://images.unsplash.com/photo-1592194996292-08fc5f3f5c22"
+      "photo": "https://images.unsplash.com/photo-1592194996292-08fc5f3f5c22",
+      "energy": "Moderada",
+      "characteristic": "Independente e afetuoso",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Ambiente interno",
+        "Treinamento de caixa de areia",
+        "Casa amigável para gatos"
+      ],
+      "description": "Whiskers é um charmoso gato Siamese com um nível de energia moderado. Ele adora carinhos e cochilos em lugares ensolarados da casa. Whiskers é o pet ideal para alguém que procura um amigo felino de baixa manutenção."
     },
     {
       "id": 3,
       "name": "Buddy",
-      "type": "cachorro",
+      "type": "Cachorro",
       "age": 5,
-      "color": "preto",
+      "color": "Preto",
       "breed": "Golden Retriever",
       "is_adopted": true,
-      "photo": "https://dog.ceo/api/img/retriever/n02096585_1205.jpg"
+      "photo": "https://dog.ceo/api/img/retriever/n02096585_1205.jpg",
+      "energy": "Moderada",
+      "characteristic": "Leal e amigável",
+      "size": "Grande",
+      "adoption_requirements": [
+        "Lar amoroso",
+        "Exercícios regulares",
+        "Experiência anterior com cães"
+      ],
+      "description": "Buddy é um Golden Retriever amoroso e leal. Ele gosta de longas caminhadas e brincadeiras no parque. Buddy já encontrou sua casa para sempre, onde é apreciado por sua família adotiva."
     },
     {
       "id": 4,
       "name": "Mittens",
-      "type": "gato",
+      "type": "Gato",
       "age": 1,
-      "color": "branco",
+      "color": "Branco",
       "breed": "Persa",
       "is_adopted": false,
-      "photo": "https://images.unsplash.com/photo-1555685812-3a67748a4b40"
+      "photo": "https://images.unsplash.com/photo-1555685812-3a67748a4b40",
+      "energy": "Baixa",
+      "characteristic": "Calmo e elegante",
+      "size": "Pequeno",
+      "adoption_requirements": [
+        "Ambiente interno",
+        "Compromisso com a escovação",
+        "Casa tranquila"
+      ],
+      "description": "Mittens é um gato Persa gentil e elegante, com um comportamento calmo. Ela gosta de relaxar pela casa e ser mimada com escovações regulares. Mittens está em busca de um lar tranquilo para sempre."
     },
     {
       "id": 5,
       "name": "Rex",
-      "type": "cachorro",
+      "type": "Cachorro",
       "age": 4,
-      "color": "amarelo",
+      "color": "Amarelo",
       "breed": "Bulldog",
       "is_adopted": false,
-      "photo": "https://dog.ceo/api/img/bulldog/n02096585_5051.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Luna",
-      "type": "cachorro",
-      "age": 2,
-      "color": "preto",
-      "breed": "Dachshund",
-      "is_adopted": false,
-      "photo": "https://dog.ceo/api/img/dachshund/n02096585_1585.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Oliver",
-      "type": "gato",
-      "age": 3,
-      "color": "laranja",
-      "breed": "Maine Coon",
-      "is_adopted": true,
-      "photo": "https://images.unsplash.com/photo-1586367657418-08e2b9d4b07d"
-    },
-    {
-      "id": 8,
-      "name": "Bella",
-      "type": "cachorro",
-      "age": 1,
-      "color": "marrom",
-      "breed": "Poodle",
-      "is_adopted": false,
-      "photo": "https://dog.ceo/api/img/poodle/n02096585_1294.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Simba",
-      "type": "gato",
-      "age": 2,
-      "color": "amarelo",
-      "breed": "Bengal",
-      "is_adopted": false,
-      "photo": "https://images.unsplash.com/photo-1515104621774-e2d27c1d4b63"
-    },
-    {
-      "id": 10,
-      "name": "Rocky",
-      "type": "cachorro",
-      "age": 4,
-      "color": "preto e branco",
-      "breed": "Boxer",
-      "is_adopted": true,
-      "photo": "https://dog.ceo/api/img/boxer/n02096585_8971.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Mia",
-      "type": "gato",
-      "age": 1,
-      "color": "cinza",
-      "breed": "Scottish Fold",
-      "is_adopted": false,
-      "photo": "https://images.unsplash.com/photo-1533743983669-ef06f2d20c75"
-    },
-    {
-      "id": 12,
-      "name": "Teddy",
-      "type": "cachorro",
-      "age": 3,
-      "color": "creme",
-      "breed": "Shih Tzu",
-      "is_adopted": false,
-      "photo": "https://dog.ceo/api/img/shihtzu/n02096585_3063.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Lily",
-      "type": "gato",
-      "age": 2,
-      "color": "preto e branco",
-      "breed": "British Shorthair",
-      "is_adopted": true,
-      "photo": "https://images.unsplash.com/photo-1584702250908-0636c2d08cfd"
-    },
-    {
-      "id": 14,
-      "name": "Max",
-      "type": "cachorro",
-      "age": 5,
-      "color": "dourado",
-      "breed": "German Shepherd",
-      "is_adopted": false,
-      "photo": "https://dog.ceo/api/img/shepherd/n02096585_10047.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Oreo",
-      "type": "gato",
-      "age": 2,
-      "color": "preto e branco",
-      "breed": "Domestic Shorthair",
-      "is_adopted": false,
-      "photo": "https://images.unsplash.com/photo-1560807707-8cc77767d783"
+      "photo": "https://dog.ceo/api/img/bulldog/n02096585_5051.jpg",
+      "energy": "Baixa",
+      "characteristic": "Easygoing e leal",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Lifestyle tranquilo",
+        "Passeios curtos",
+        "Ambiente interno"
+      ],
+      "description": "Rex é um Bulldog fácil de lidar com uma personalidade leal e amigável. Ele prefere um estilo de vida tranquilo e passeios curtos. Rex está em busca de uma família amorosa para chamar de sua."
     },
     {
       "id": 16,
-      "name": "Bailey",
-      "type": "cachorro",
+      "name": "Lola",
+      "type": "Cachorro",
       "age": 3,
-      "color": "marrom e branco",
-      "breed": "Beagle",
-      "is_adopted": true,
-      "photo": "https://dog.ceo/api/img/beagle/n02096585_1937.jpg"
+      "color": "Preto e Marrom",
+      "breed": "Labrador Retriever",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/labrador/n02096585_6379.jpg",
+      "energy": "Alta",
+      "characteristic": "Amigável e brincalhona",
+      "size": "Grande",
+      "adoption_requirements": [
+        "Quintal cercado",
+        "Estilo de vida ativo",
+        "Experiência prévia com cães"
+      ],
+      "description": "Lola é uma Labrador Retriever de alta energia que adora brincar de pegar a bola e fazer longas caminhadas. Ela é amigável tanto com pessoas quanto com outros cães e seria um ótimo companheiro para uma família ativa."
     },
     {
       "id": 17,
-      "name": "Charlie",
-      "type": "gato",
-      "age": 4,
-      "color": "preto",
-      "breed": "Russian Blue",
+      "name": "Simba",
+      "type": "Gato",
+      "age": 2,
+      "color": "Laranja e Branco",
+      "breed": "Gato Malhado",
       "is_adopted": false,
-      "photo": "https://images.unsplash.com/photo-1505826759037-406b40feb3c4"
+      "photo": "https://images.unsplash.com/photo-1560807707-8cc77767d783",
+      "energy": "Moderada",
+      "characteristic": "Curioso e independente",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Ambiente tranquilo",
+        "Companhia ocasional",
+        "Cama confortável"
+      ],
+      "description": "Simba é um gato malhado curioso e independente. Ele gosta de explorar seu ambiente e também aprecia longos cochilos ao sol. Simba está procurando por um lar tranquilo onde possa ser ele mesmo."
     },
     {
       "id": 18,
-      "name": "Cooper",
-      "type": "cachorro",
-      "age": 2,
-      "color": "marrom",
-      "breed": "Cocker Spaniel",
+      "name": "Rocky",
+      "type": "Cachorro",
+      "age": 1,
+      "color": "Preto",
+      "breed": "Rottweiler",
       "is_adopted": false,
-      "photo": "https://dog.ceo/api/img/cocker/n02096585_9005.jpg"
+      "photo": "https://dog.ceo/api/img/rottweiler/n02096585_6252.jpg",
+      "energy": "Alta",
+      "characteristic": "Protetor e leal",
+      "size": "Grande",
+      "adoption_requirements": [
+        "Quintal espaçoso",
+        "Atividades ao ar livre",
+        "Experiência com raças grandes"
+      ],
+      "description": "Rocky é um Rottweiler leal e protetor. Ele adora brincar ao ar livre e também é um ótimo cão de guarda. Rocky está em busca de uma família que possa proporcionar a ele um ambiente seguro."
     },
     {
       "id": 19,
-      "name": "Lucy",
-      "type": "gato",
-      "age": 3,
-      "color": "laranja e branco",
-      "breed": "Ragdoll",
+      "name": "Misty",
+      "type": "Gato",
+      "age": 4,
+      "color": "Cinza",
+      "breed": "Siamês",
       "is_adopted": true,
-      "photo": "https://images.unsplash.com/photo-1601755474920-eba4e12896db"
+      "photo": "https://images.unsplash.com/photo-1555685812-3a67748a4b40",
+      "energy": "Moderada",
+      "characteristic": "Elegante e afetuosa",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Ambiente interno",
+        "Carinho regular",
+        "Casa tranquila"
+      ],
+      "description": "Misty é uma gata Siamês elegante e afetuosa. Ela adora receber carinho e é conhecida por sua graciosidade. Misty encontrou um lar amoroso onde é apreciada por sua família adotiva."
     },
     {
       "id": 20,
-      "name": "Duke",
-      "type": "cachorro",
-      "age": 4,
-      "color": "preto",
-      "breed": "Doberman",
+      "name": "Bobby",
+      "type": "Cachorro",
+      "age": 2,
+      "color": "Dourado",
+      "breed": "Golden Retriever",
       "is_adopted": false,
-      "photo": "https://dog.ceo/api/img/doberman/n02096585_6099.jpg"
+      "photo": "https://dog.ceo/api/img/retriever/n02096585_14115.jpg",
+      "energy": "Moderada",
+      "characteristic": "Amigável e brincalhão",
+      "size": "Grande",
+      "adoption_requirements": [
+        "Casa com quintal",
+        "Atividades ao ar livre",
+        "Experiência anterior com cães"
+      ],
+      "description": "Bobby é um Golden Retriever amigável e brincalhão. Ele adora brincar de buscar e está sempre pronto para uma aventura ao ar livre. Bobby está em busca de uma família ativa que possa acompanhá-lo em suas travessuras."
+    },
+    {
+      "id": 21,
+      "name": "Milo",
+      "type": "Gato",
+      "age": 1,
+      "color": "Branco e Preto",
+      "breed": "Persa",
+      "is_adopted": true,
+      "photo": "https://images.unsplash.com/photo-1555685812-3a67748a4b40",
+      "energy": "Baixa",
+      "characteristic": "Calmo e elegante",
+      "size": "Pequeno",
+      "adoption_requirements": [
+        "Ambiente interno",
+        "Escovação regular",
+        "Casa tranquila"
+      ],
+      "description": "Milo é um gato Persa calmo e elegante. Ele adora relaxar e ser mimado com escovações. Milo encontrou um lar tranquilo onde pode viver sua vida com tranquilidade."
+    },
+    {
+      "id": 22,
+      "name": "Bella",
+      "type": "Cachorro",
+      "age": 3,
+      "color": "Marrom e Branco",
+      "breed": "Beagle",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/beagle/n02096585_10147.jpg",
+      "energy": "Moderada",
+      "characteristic": "Alegre e sociável",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Família ativa",
+        "Passeios diários",
+        "Companhia constante"
+      ],
+      "description": "Bella é uma Beagle alegre e sociável. Ela adora brincar e fazer novos amigos, tanto de duas quanto de quatro patas. Bella está em busca de uma família ativa que possa proporcionar a ela muito amor e diversão."
+    },
+    {
+      "id": 23,
+      "name": "Oscar",
+      "type": "Gato",
+      "age": 2,
+      "color": "Preto",
+      "breed": "Gato Preto",
+      "is_adopted": false,
+      "photo": "https://images.unsplash.com/photo-1555685812-3a67748a4b40",
+      "energy": "Moderada",
+      "characteristic": "Independente e misterioso",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Ambiente interno",
+        "Espaço para explorar",
+        "Companhia tranquila"
+      ],
+      "description": "Oscar é um gato preto independente e misterioso. Ele gosta de explorar e é conhecido por seu charme enigmático. Oscar está procurando por um lar tranquilo onde possa ser livre para explorar."
+    },
+    {
+      "id": 24,
+      "name": "Charlie",
+      "type": "Cachorro",
+      "age": 5,
+      "color": "Marrom",
+      "breed": "Dachshund",
+      "is_adopted": true,
+      "photo": "https://dog.ceo/api/img/dachshund/n02096585_9238.jpg",
+      "energy": "Baixa",
+      "characteristic": "Leal e corajoso",
+      "size": "Pequeno",
+      "adoption_requirements": [
+        "Lar acolhedor",
+        "Passeios curtos",
+        "Companhia constante"
+      ],
+      "description": "Charlie é um Dachshund leal e corajoso. Ele pode ser pequeno, mas tem um grande coração. Charlie encontrou um lar amoroso onde é apreciado por sua coragem e lealdade."
+    },
+    {
+      "id": 25,
+      "name": "Lily",
+      "type": "Gato",
+      "age": 1,
+      "color": "Branco",
+      "breed": "Gato Persa",
+      "is_adopted": false,
+      "photo": "https://images.unsplash.com/photo-1555685812-3a67748a4b40",
+      "energy": "Baixa",
+      "characteristic": "Elegante e tranquila",
+      "size": "Pequeno",
+      "adoption_requirements": [
+        "Ambiente interno",
+        "Escovação regular",
+        "Casa tranquila"
+      ],
+      "description": "Lily é uma gata Persa elegante e tranquila. Ela gosta de relaxar em locais confortáveis e ser mimada com escovações. Lily está em busca de um lar tranquilo onde possa ser a rainha da casa."
+    },
+    {
+      "id": 26,
+      "name": "Teddy",
+      "type": "Cachorro",
+      "age": 3,
+      "color": "Marrom",
+      "breed": "Labrador Retriever",
+      "is_adopted": true,
+      "photo": "https://dog.ceo/api/img/labrador/n02096585_10163.jpg",
+      "energy": "Alta",
+      "characteristic": "Brincalhão e amoroso",
+      "size": "Grande",
+      "adoption_requirements": [
+        "Quintal espaçoso",
+        "Atividades ao ar livre",
+        "Experiência com cães ativos"
+      ],
+      "description": "Teddy é um Labrador Retriever brincalhão e amoroso. Ele adora brincar de buscar e está sempre pronto para se divertir. Teddy encontrou um lar ativo que corresponde ao seu nível de energia."
+    },
+    {
+      "id": 27,
+      "name": "Sophie",
+      "type": "Gato",
+      "age": 2,
+      "color": "Cinza e Branco",
+      "breed": "Siamês",
+      "is_adopted": true,
+      "photo": "https://images.unsplash.com/photo-1555685812-3a67748a4b40",
+      "energy": "Moderada",
+      "characteristic": "Afetuosa e curiosa",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Ambiente interno",
+        "Carinho regular",
+        "Casa tranquila"
+      ],
+      "description": "Sophie é uma gata Siamês afetuosa e curiosa. Ela adora explorar e receber carinho. Sophie encontrou um lar amoroso onde é mimada com carinho constante."
+    },
+    {
+      "id": 28,
+      "name": "Milo",
+      "type": "Cachorro",
+      "age": 2,
+      "color": "Preto e Branco",
+      "breed": "Border Collie",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/collie/n02096585_10181.jpg",
+      "energy": "Alta",
+      "characteristic": "Inteligente e enérgico",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Espaço para brincadeiras",
+        "Exercícios mentais",
+        "Atividades ao ar livre"
+      ],
+      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
     }
   ]
 }

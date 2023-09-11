@@ -10,54 +10,64 @@ export function SidebarFilter() {
           filterName="age"
           options={[
             { label: 'Todos', value: 'all' },
-            { label: 'Filhotes', value: 'filhotes' },
-            { label: 'Adultos', value: 'adultos' },
-            { label: 'Idosos', value: 'idosos' },
+            { label: '0-2', value: '02' },
+            { label: '2-8', value: '28' },
+            { label: '8+', value: '8+' },
+          ]}
+        />
+      </li>
+
+      <li className="w-full">
+        <Label className="inline-block mb-2 text-brand-900">Gênero</Label>
+        <Filter
+          filterName="gender"
+          options={[
+            { label: 'Todos', value: 'all' },
+            { label: 'Macho', value: 'male' },
+            { label: 'Fêmea', value: 'female' },
+          ]}
+        />
+      </li>
+
+      <li className="w-full">
+        <Label className="inline-block mb-2 text-brand-900">Porte</Label>
+        <Filter
+          filterName="size"
+          options={[
+            { label: 'Todos', value: 'all' },
+            { label: 'Pequeno', value: 'small' },
+            { label: 'Médio', value: 'medium' },
+            { label: 'Grande', value: 'large' },
+          ]}
+        />
+      </li>
+
+      <li className="w-full">
+        <Label className="inline-block mb-2 text-brand-900">Cor</Label>
+        <Filter
+          filterName="color"
+          options={[
+            { label: 'Todos', value: 'all' },
+            { label: 'Marrom', value: 'brown' },
+            { label: 'Amarelo', value: 'yellow' },
+            { label: 'Branco', value: 'white' },
+            { label: 'Cinza', value: 'gray' },
+            { label: 'Preto', value: 'black' },
           ]}
         />
       </li>
 
       <li className="w-full">
         <Label className="inline-block mb-2 text-brand-900">
-          Nivel de energia
+          Nível de energia
         </Label>
         <Filter
           filterName="energy"
           options={[
             { label: 'Todos', value: 'all' },
-            { label: '01', value: '1' },
-            { label: '02', value: '2' },
-            { label: '03', value: '3' },
-          ]}
-        />
-      </li>
-
-      <li className="w-full">
-        <Label className="inline-block mb-2 text-brand-900">
-          Porte do aniaml
-        </Label>
-        <Filter
-          filterName="size"
-          options={[
-            { label: 'Todos', value: 'all' },
-            { label: 'Pequeno', value: 'pequeno' },
-            { label: 'Médio', value: 'medio' },
-            { label: 'Grande', value: 'grande' },
-          ]}
-        />
-      </li>
-
-      <li className="w-full">
-        <Label className="inline-block mb-2 text-brand-900">
-          Nivel de independência
-        </Label>
-        <Filter
-          filterName="independency"
-          options={[
-            { label: 'Todos', value: 'all' },
-            { label: 'Pequeno', value: 'pequeno' },
-            { label: 'Médio', value: 'medio' },
-            { label: 'Grande', value: 'grande' },
+            { label: 'Baixa', value: 'low' },
+            { label: 'Moderada', value: 'medium' },
+            { label: 'Alta', value: 'high' },
           ]}
         />
       </li>

@@ -1,14 +1,12 @@
 import { Header } from '@/components/header'
-import { Sidebar } from '@/components/sidebar'
 
 import { Outlet } from 'react-router-dom'
 
 export const AppLayout = () => {
   return (
-    <div className="grid grid-rows-[6.875rem_1fr] grid-cols-[350px_1fr] h-screen">
+    <div className="flex flex-col h-screen">
       <Header />
-      <Sidebar />
-      <main className="overflow-y-scroll">
+      <main className="h-full">
         <Outlet />
       </main>
     </div>
