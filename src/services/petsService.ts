@@ -2,7 +2,13 @@ import { Pet } from '@/@types/Pet'
 import { api } from '@/lib/api'
 
 export const PetsService = {
-  getPets: async ({ pageParam = 1, type = '' }) => {
+  getPets: async ({
+    pageParam = 1,
+    type = '',
+    size = '',
+    color = '',
+    energy = '',
+  }) => {
     const LIMIT = 8
 
     let query = `/animals/`
@@ -13,6 +19,18 @@ export const PetsService = {
 
     if (type) {
       query += `&type=${type}`
+    }
+
+    if (size) {
+      query += `&size=${size}`
+    }
+
+    if (color) {
+      query += `&color=${color}`
+    }
+
+    if (energy) {
+      query += `&energy=${energy}`
     }
 
     try {

@@ -1,6 +1,7 @@
 import { Filter } from '@/components/filter'
 import { PetList } from '@/components/pet-list'
 import { Button } from '@/components/ui/button'
+import { Skeleton } from '@/components/ui/skeleton'
 import { usePets } from '@/hooks/usePets'
 import { useMemo } from 'react'
 
@@ -10,6 +11,7 @@ export function Pets() {
     error,
     hasNextPage,
     isFetchingNextPage,
+    isLoading,
     fetchNextPage,
   } = usePets()
 
@@ -24,9 +26,13 @@ export function Pets() {
   return (
     <div className="h-screen px-2 pt-8 overflow-y-scroll pb-36">
       <header className="flex items-center justify-between mb-8">
-        <h2>
-          <strong>{petsDataLength} amigos</strong> encontrados!
-        </h2>
+        {!isLoading ? (
+          <h2>
+            <strong>{petsDataLength} amigos</strong> encontrados!
+          </h2>
+        ) : (
+          <Skeleton className="w-40 h-8" />
+        )}
 
         <div className="w-40">
           <Filter
@@ -42,7 +48,7 @@ export function Pets() {
 
       <div className="flex flex-col gap-8">
         <PetList />
-        {hasNextPage && (
+        {hasNextPage ? (
           <Button
             className="mx-auto w-44 bg-brand-900"
             onClick={() => fetchNextPage()}
@@ -50,7 +56,7 @@ export function Pets() {
           >
             {isFetchingNextPage ? 'Carregando...' : 'Carregar mais'}
           </Button>
-        )}
+        ) : null}
       </div>
     </div>
   )

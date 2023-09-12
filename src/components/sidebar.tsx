@@ -1,5 +1,4 @@
 import { SidebarFilter } from './sidebar-filter'
-import { Button } from './ui/button'
 
 export const Sidebar = () => {
   return (
@@ -12,9 +11,10 @@ export const Sidebar = () => {
             <SidebarFilter />
           </ul>
         </nav>
-        <Button className="w-full bg-brand-900 hover:bg-brand-500">
+
+        {/* <Button className="w-full bg-brand-900 hover:bg-brand-500">
           Pesquisar
-        </Button>
+        </Button> */}
       </div>
     </aside>
   )

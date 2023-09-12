@@ -27,6 +27,14 @@ export function PetList() {
       </div>
     )
 
+  if (petsData?.length === 0) {
+    return (
+      <div className="grid grid-cols-4 gap-8 text-center">
+        <p className="text-2xl col-span-full">Nenhum animal encontrado 😢</p>
+      </div>
+    )
+  }
+
   return (
     <ul className="grid grid-cols-4 gap-8">
       {petsData?.map((pet) => (
