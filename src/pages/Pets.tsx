@@ -30,11 +30,11 @@ export function Pets() {
 
         <div className="w-40">
           <Filter
-            filterName="sortBy"
+            filterName="type"
             options={[
-              { label: 'Gatos e cachorros', value: 'all' },
-              { label: 'Gatos', value: 'cat' },
-              { label: 'Cachorros', value: 'dog' },
+              { label: 'Gatos e cachorros', value: '' },
+              { label: 'Gatos', value: 'Gato' },
+              { label: 'Cachorros', value: 'Cachorro' },
             ]}
           />
         </div>

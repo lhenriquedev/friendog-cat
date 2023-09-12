@@ -8,7 +8,7 @@ interface FilterProps {
 export function Filter({ filterName, options }: FilterProps) {
   const [searchParams, setSearchParams] = useSearchParams()
 
-  const searchParamsValue = searchParams.get(filterName) || 'all'
+  const searchParamsValue = searchParams.get(filterName) || ''
 
   const handleChange = (e: string): void => {
     searchParams.set(filterName, e)

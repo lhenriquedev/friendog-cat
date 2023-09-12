@@ -4,7 +4,7 @@ import { Label } from './ui/label'
 export function SidebarFilter() {
   return (
     <>
-      <li className="w-full">
+      {/* <li className="w-full">
         <Label className="inline-block mb-2 text-brand-900">Idade</Label>
         <Filter
           filterName="age"
@@ -15,14 +15,14 @@ export function SidebarFilter() {
             { label: '8+', value: '8+' },
           ]}
         />
-      </li>
+      </li> */}
 
       <li className="w-full">
         <Label className="inline-block mb-2 text-brand-900">Gênero</Label>
         <Filter
           filterName="gender"
           options={[
-            { label: 'Todos', value: 'all' },
+            { label: 'Todos', value: '' },
             { label: 'Macho', value: 'male' },
             { label: 'Fêmea', value: 'female' },
           ]}
@@ -34,10 +34,10 @@ export function SidebarFilter() {
         <Filter
           filterName="size"
           options={[
-            { label: 'Todos', value: 'all' },
-            { label: 'Pequeno', value: 'small' },
-            { label: 'Médio', value: 'medium' },
-            { label: 'Grande', value: 'large' },
+            { label: 'Todos', value: '' },
+            { label: 'Pequeno', value: 'Pequeno' },
+            { label: 'Médio', value: 'Médio' },
+            { label: 'Grande', value: 'Grande' },
           ]}
         />
       </li>
@@ -47,12 +47,12 @@ export function SidebarFilter() {
         <Filter
           filterName="color"
           options={[
-            { label: 'Todos', value: 'all' },
-            { label: 'Marrom', value: 'brown' },
-            { label: 'Amarelo', value: 'yellow' },
-            { label: 'Branco', value: 'white' },
-            { label: 'Cinza', value: 'gray' },
-            { label: 'Preto', value: 'black' },
+            { label: 'Todos', value: '' },
+            { label: 'Marrom', value: 'Marrom' },
+            { label: 'Amarelo', value: 'Amarelo' },
+            { label: 'Branco', value: 'Branco' },
+            { label: 'Cinza', value: 'Cinza' },
+            { label: 'Preto', value: 'Preto' },
           ]}
         />
       </li>
@@ -64,10 +64,10 @@ export function SidebarFilter() {
         <Filter
           filterName="energy"
           options={[
-            { label: 'Todos', value: 'all' },
-            { label: 'Baixa', value: 'low' },
-            { label: 'Moderada', value: 'medium' },
-            { label: 'Alta', value: 'high' },
+            { label: 'Todos', value: '' },
+            { label: 'Baixa', value: 'Baixa' },
+            { label: 'Moderada', value: 'Moderada' },
+            { label: 'Alta', value: 'Alta' },
           ]}
         />
       </li>

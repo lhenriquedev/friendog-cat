@@ -7,7 +7,7 @@ type PetCardProps = {
   age: number
   isAdopted?: boolean
 }
-export function PetCard({ name, age }: PetCardProps) {
+export function PetCard({ name, age, photo }: PetCardProps) {
   return (
     <Card className="relative overflow-hidden rounded-lg">
       <div className="absolute top-0 left-0 z-10 w-full h-full transition-opacity opacity-0 hover:opacity-100 bg-brand-500/90">
@@ -20,7 +20,7 @@ export function PetCard({ name, age }: PetCardProps) {
       <CardHeader className="p-0">
         <img
           className="object-cover h-40"
-          src="https://images.dog.ceo/breeds/husky/n02110185_9975.jpg"
+          src={photo}
           alt={`Foto do ${name}`}
         />
       </CardHeader>
