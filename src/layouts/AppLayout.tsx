@@ -6,7 +6,7 @@ export const AppLayout = () => {
   return (
     <div className="flex flex-col h-screen">
       <Header />
-      <main className="h-full">
+      <main className="overflow-hidden">
         <Outlet />
       </main>
     </div>

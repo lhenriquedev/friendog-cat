@@ -3,7 +3,7 @@ import { Button } from './ui/button'
 
 export const Sidebar = () => {
   return (
-    <aside className="bg-white border-r border-gray-200">
+    <aside className="overflow-hidden bg-white border-r border-gray-200">
       <div className="px-10 py-8">
         <h2 className="mb-8 text-xl font-semibold text-brand-900">Filtros</h2>
 

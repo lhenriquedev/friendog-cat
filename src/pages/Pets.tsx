@@ -1,20 +1,31 @@
 import { Filter } from '@/components/filter'
-import { PetCard } from '@/components/pet-card'
+import { PetList } from '@/components/pet-list'
+import { Button } from '@/components/ui/button'
 import { usePets } from '@/hooks/usePets'
-import { NavLink } from 'react-router-dom'
+import { useMemo } from 'react'
 
 export function Pets() {
-  const { data: pets, isLoading: isPetsLoading, error } = usePets()
+  const {
+    data: pets,
+    error,
+    hasNextPage,
+    isFetchingNextPage,
+    fetchNextPage,
+  } = usePets()
+
+  const petsDataLength = useMemo(() => {
+    return pets?.pages.reduce((acc, page) => {
+      return [...acc, ...page]
+    }, [])
+  }, [pets])?.length
 
   if (error) return <>Error</>
 
-  if (isPetsLoading) return <>Loading</>
-
   return (
-    <div className="px-2 py-8 overflow-y-scroll">
+    <div className="h-screen px-2 pt-8 overflow-y-scroll pb-36">
       <header className="flex items-center justify-between mb-8">
         <h2>
-          <strong>{pets?.length} amigos</strong> encontrados!
+          <strong>{petsDataLength} amigos</strong> encontrados!
         </h2>
 
         <div className="w-40">
@@ -29,15 +40,18 @@ export function Pets() {
         </div>
       </header>
 
-      <ul className="grid grid-cols-4 gap-8">
-        {pets?.map((dog) => (
-          <li key={dog.id}>
-            <NavLink to={`/pet/${dog.id}`}>
-              <PetCard {...dog} />
-            </NavLink>
-          </li>
-        ))}
-      </ul>
+      <div className="flex flex-col gap-8">
+        <PetList />
+        {hasNextPage && (
+          <Button
+            className="mx-auto w-44 bg-brand-900"
+            onClick={() => fetchNextPage()}
+            disabled={isFetchingNextPage || !hasNextPage}
+          >
+            {isFetchingNextPage ? 'Carregando...' : 'Carregar mais'}
+          </Button>
+        )}
+      </div>
     </div>
   )
 }

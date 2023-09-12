@@ -341,6 +341,106 @@
         "Atividades ao ar livre"
       ],
       "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
+    },
+
+    {
+      "id": 29,
+      "name": "Pedro",
+      "type": "Cachorro",
+      "age": 2,
+      "color": "Preto e Branco",
+      "breed": "Border Collie",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/collie/n02096585_10181.jpg",
+      "energy": "Alta",
+      "characteristic": "Inteligente e enérgico",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Espaço para brincadeiras",
+        "Exercícios mentais",
+        "Atividades ao ar livre"
+      ],
+      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
+    },
+
+    {
+      "id": 30,
+      "name": "Camila",
+      "type": "Cachorro",
+      "age": 2,
+      "color": "Preto e Branco",
+      "breed": "Border Collie",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/collie/n02096585_10181.jpg",
+      "energy": "Alta",
+      "characteristic": "Inteligente e enérgico",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Espaço para brincadeiras",
+        "Exercícios mentais",
+        "Atividades ao ar livre"
+      ],
+      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
+    },
+
+    {
+      "id": 31,
+      "name": "Mauricio",
+      "type": "Cachorro",
+      "age": 2,
+      "color": "Preto e Branco",
+      "breed": "Border Collie",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/collie/n02096585_10181.jpg",
+      "energy": "Alta",
+      "characteristic": "Inteligente e enérgico",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Espaço para brincadeiras",
+        "Exercícios mentais",
+        "Atividades ao ar livre"
+      ],
+      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
+    },
+
+
+    {
+      "id": 32,
+      "name": "Claudin",
+      "type": "Cachorro",
+      "age": 2,
+      "color": "Preto e Branco",
+      "breed": "Border Collie",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/collie/n02096585_10181.jpg",
+      "energy": "Alta",
+      "characteristic": "Inteligente e enérgico",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Espaço para brincadeiras",
+        "Exercícios mentais",
+        "Atividades ao ar livre"
+      ],
+      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
+    },
+    {
+      "id": 33,
+      "name": "Raissa",
+      "type": "Cachorro",
+      "age": 2,
+      "color": "Preto e Branco",
+      "breed": "Border Collie",
+      "is_adopted": false,
+      "photo": "https://dog.ceo/api/img/collie/n02096585_10181.jpg",
+      "energy": "Alta",
+      "characteristic": "Inteligente e enérgico",
+      "size": "Médio",
+      "adoption_requirements": [
+        "Espaço para brincadeiras",
+        "Exercícios mentais",
+        "Atividades ao ar livre"
+      ],
+      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
     }
   ]
 }
