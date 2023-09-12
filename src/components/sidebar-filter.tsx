@@ -16,7 +16,7 @@ export function SidebarFilter() {
           ]}
         />
       </li> */}
-
+      {/* 
       <li className="w-full">
         <Label className="inline-block mb-2 text-brand-900">Gênero</Label>
         <Filter
@@ -27,7 +27,7 @@ export function SidebarFilter() {
             { label: 'Fêmea', value: 'female' },
           ]}
         />
-      </li>
+      </li> */}
 
       <li className="w-full">
         <Label className="inline-block mb-2 text-brand-900">Porte</Label>
