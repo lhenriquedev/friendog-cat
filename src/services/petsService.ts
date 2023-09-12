@@ -13,6 +13,7 @@ export const PetsService = {
 
     let query = `/animals/`
 
+    // how to improve this?
     if (pageParam) {
       query += `?_page=${pageParam}&_limit=${LIMIT}`
     }

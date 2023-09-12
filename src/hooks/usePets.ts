@@ -5,6 +5,7 @@ import { useSearchParams } from 'react-router-dom'
 export const usePets = () => {
   const [searchParams] = useSearchParams()
 
+  // Refactor
   const typeValue = searchParams.get('type') || ''
   const type = !typeValue || typeValue === '' ? undefined : typeValue
   const sizeValue = searchParams.get('size') || ''
@@ -21,6 +22,7 @@ export const usePets = () => {
     hasNextPage,
     fetchNextPage,
     isFetchingNextPage,
+    isSuccess,
   } = useInfiniteQuery({
     queryKey: ['pets', type, size, color, energy],
     queryFn: ({ pageParam = 1 }) =>
@@ -38,5 +40,6 @@ export const usePets = () => {
     hasNextPage,
     isFetchingNextPage,
     fetchNextPage,
+    isSuccess,
   }
 }

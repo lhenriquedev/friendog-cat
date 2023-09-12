@@ -5,7 +5,7 @@ import { Skeleton } from './ui/skeleton'
 import { useMemo } from 'react'
 
 export function PetList() {
-  const { data: pets, isLoading: isPetsLoading } = usePets()
+  const { data: pets, isLoading: isPetsLoading, isSuccess } = usePets()
 
   const petsData = useMemo(() => {
     return pets?.pages.reduce((acc, page) => {
@@ -37,11 +37,12 @@ export function PetList() {
 
   return (
     <ul className="grid grid-cols-4 gap-8">
-      {petsData?.map((pet) => (
-        <NavLink key={pet.id} to={`/pets/${pet.id}`}>
-          <PetCard key={pet.id} {...pet} />
-        </NavLink>
-      ))}
+      {isSuccess &&
+        petsData?.map((pet) => (
+          <NavLink key={pet.id} to={`/pets/${pet.id}`}>
+            <PetCard key={pet.id} {...pet} />
+          </NavLink>
+        ))}
     </ul>
   )
 }
