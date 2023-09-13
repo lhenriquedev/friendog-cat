@@ -13,7 +13,7 @@ export function PetCard({ name, age, photo }: PetCardProps) {
       <div className="absolute top-0 left-0 z-10 w-full h-full transition-opacity opacity-0 hover:opacity-100 bg-brand-500/90">
         <div className="flex items-center justify-center h-full">
           <Button className="bg-white text-brand-900 hover:bg-slate-200">
-            Quero adotar!
+            Ver mais informações!
           </Button>
         </div>
       </div>

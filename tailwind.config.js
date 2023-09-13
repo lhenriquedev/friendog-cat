@@ -20,6 +20,7 @@ module.exports = {
         'brand-900': '#582770',
         'brand-500': '#4f2365',
         'brand-400': '#693d7e',
+        'brand-text': '#421053',
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',

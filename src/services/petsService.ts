@@ -41,4 +41,13 @@ export const PetsService = {
       throw new Error('Failed to fetch pets')
     }
   },
+
+  getPet: async (id: number) => {
+    try {
+      const response = await api.get<Pet>(`/animals/${id}`)
+      return response.data
+    } catch (error) {
+      throw new Error('Failed to fetch pet')
+    }
+  },
 }
