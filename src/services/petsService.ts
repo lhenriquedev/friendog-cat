@@ -27,6 +27,14 @@ export const PetsService = {
       query = query.eq('type', filter.type)
     }
 
+    if (filter?.age) {
+      query = query.eq('age', filter.age)
+    }
+
+    if (filter?.isVaccinated) {
+      query = query.eq('isVaccinated', filter.isVaccinated)
+    }
+
     const { data, error } = await query
 
     if (error) {

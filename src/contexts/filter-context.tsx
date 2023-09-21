@@ -6,9 +6,11 @@ type FilterContextType = {
     size: string
     color: string
     type: string
-    // isVacinated: boolean
+    age: string
+    isVaccinated: boolean
   }
-  handleValueChange: (value: string, field: string) => void
+  handleValueChange: (field: string, value: unknown) => void
+  clearFilters: () => void
 }
 
 const FilterContext = createContext({} as FilterContextType)
@@ -22,6 +24,8 @@ const filterInitialValues = {
   size: '',
   color: '',
   type: '',
+  age: '',
+  isVaccinated: false,
 }
 
 export default function FilterContextProvider({
@@ -29,12 +33,18 @@ export default function FilterContextProvider({
 }: FilterContextProps) {
   const [filterValues, setFilterValues] = useState(filterInitialValues)
 
-  const handleValueChange = (field: string, value: string) => {
+  const handleValueChange = (field: string, value: unknown) => {
     setFilterValues({ ...filterValues, [field]: value })
   }
 
+  const clearFilters = () => {
+    setFilterValues(filterInitialValues)
+  }
+
   return (
-    <FilterContext.Provider value={{ filterValues, handleValueChange }}>
+    <FilterContext.Provider
+      value={{ filterValues, clearFilters, handleValueChange }}
+    >
       {children}
     </FilterContext.Provider>
   )

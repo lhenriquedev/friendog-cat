@@ -3,4 +3,6 @@ export type Filter = {
   size: string
   color: string
   type: string
+  age: string
+  isVaccinated: boolean
 }

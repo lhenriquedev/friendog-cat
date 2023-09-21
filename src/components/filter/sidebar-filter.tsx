@@ -2,6 +2,7 @@
 import { SelectFilter } from './select-filter'
 import { Label } from '../ui/label'
 import { useFilter } from '@/contexts/filter-context'
+import { CheckBoxFilter } from './checkbox-filter'
 
 export function SidebarFilter() {
   const { filterValues, handleValueChange } = useFilter()
@@ -67,15 +68,31 @@ export function SidebarFilter() {
         />
       </li>
 
-      {/* <li className="flex w-full gap-2">
-        <CheckBoxFilter filterName="is_vaccinated" />
-        <Label
-          htmlFor="is_vaccinated"
-          className="inline-block mb-2 text-brand-900"
-        >
+      <li className="w-full">
+        <Label className="inline-block mb-2 text-brand-900">Idade</Label>
+        <SelectFilter
+          name="size"
+          value={filterValues.age}
+          onChange={(e) => handleValueChange('age', e)}
+          options={[
+            { label: 'Todos', value: '' },
+            { label: 'Filhote', value: 'puppy' },
+            { label: 'Adulto', value: 'adult' },
+            { label: 'Idoso', value: 'old' },
+          ]}
+        />
+      </li>
+
+      <li className="flex items-start w-full gap-2">
+        <CheckBoxFilter
+          name="isVaccinated"
+          onChecked={(e) => handleValueChange('isVaccinated', e)}
+          value={filterValues.isVaccinated}
+        />
+        <Label className="inline-block mb-2 text-brand-900">
           Incluir pets vacinados
         </Label>
-      </li> */}
+      </li>
     </>
   )
 }
