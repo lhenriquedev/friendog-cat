@@ -15,12 +15,25 @@ type SelectFormProps = {
   options: SelectOptionsProps[]
   onChange: (value: string) => void
   value: string
+  disabled?: boolean
+  name: string
 }
-export function SelectForm({ onChange, options, value }: SelectFormProps) {
+export function SelectForm({
+  onChange,
+  options,
+  value,
+  disabled,
+  name,
+}: SelectFormProps) {
   return (
-    <Select onValueChange={onChange} value={value}>
+    <Select
+      disabled={disabled}
+      onValueChange={onChange}
+      value={value}
+      name={name}
+    >
       <SelectTrigger className="w-full bg-white rounded-lg border-brand-400 text-brand-900">
-        <SelectValue placeholder="Selecione uma idade" />
+        <SelectValue />
       </SelectTrigger>
       <SelectContent className="bg-brand-500 border-brand-500">
         {options.map((option) => (

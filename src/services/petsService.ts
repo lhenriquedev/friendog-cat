@@ -1,45 +1,39 @@
 import { Pet } from '@/@types/Pet'
 import { api } from '@/lib/api'
+import supabase from './supabase'
+import { Filter } from '@/@types/Filter'
+
+type PetsServiceProps = {
+  filter?: Filter
+}
 
 export const PetsService = {
-  getPets: async ({
-    pageParam = 1,
-    type = '',
-    size = '',
-    color = '',
-    energy = '',
-  }) => {
-    const LIMIT = 8
+  getPets: async ({ filter }: PetsServiceProps) => {
+    let query = supabase.from('animals').select('*')
 
-    let query = `/animals/`
-
-    // how to improve this?
-    if (pageParam) {
-      query += `?_page=${pageParam}&_limit=${LIMIT}`
+    if (filter?.gender) {
+      query = query.eq('gender', filter.gender)
     }
 
-    if (type) {
-      query += `&type=${type}`
+    if (filter?.size) {
+      query = query.eq('size', filter.size)
     }
 
-    if (size) {
-      query += `&size=${size}`
+    if (filter?.color) {
+      query = query.eq('color', filter.color)
     }
 
-    if (color) {
-      query += `&color=${color}`
+    if (filter?.type) {
+      query = query.eq('type', filter.type)
     }
 
-    if (energy) {
-      query += `&energy=${energy}`
-    }
+    const { data, error } = await query
 
-    try {
-      const response = await api.get<Pet[]>(query)
-      return response.data
-    } catch (error) {
+    if (error) {
       throw new Error('Failed to fetch pets')
     }
+
+    return data
   },
 
   getPet: async (id: number) => {

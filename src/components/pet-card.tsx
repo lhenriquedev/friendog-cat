@@ -1,13 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from './ui/button'
 
-type PetCardProps = {
-  name: string
-  photo: string
-  age: number
-  isAdopted?: boolean
-}
-export function PetCard({ name, age, photo }: PetCardProps) {
+export function PetCard({ name, age, image }) {
   return (
     <Card className="relative overflow-hidden rounded-lg">
       <div className="absolute top-0 left-0 z-10 w-full h-full transition-opacity opacity-0 hover:opacity-100 bg-brand-500/90">
@@ -20,7 +14,7 @@ export function PetCard({ name, age, photo }: PetCardProps) {
       <CardHeader className="p-0">
         <img
           className="object-cover h-40"
-          src={photo}
+          src={image}
           alt={`Foto do ${name}`}
         />
       </CardHeader>

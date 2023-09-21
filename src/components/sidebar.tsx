@@ -1,6 +1,11 @@
-import { SidebarFilter } from './sidebar-filter'
+import { usePets } from '@/hooks/usePets'
+import { SidebarFilter } from './filter/sidebar-filter'
+import { Button } from './ui/button'
+import { Loader2, Search } from 'lucide-react'
 
 export const Sidebar = () => {
+  const { refetch, isFetching } = usePets()
+
   return (
     <aside className="overflow-hidden bg-white border-r border-gray-200">
       <div className="px-10 py-8">
@@ -12,9 +17,18 @@ export const Sidebar = () => {
           </ul>
         </nav>
 
-        {/* <Button className="w-full bg-brand-900 hover:bg-brand-500">
+        <Button
+          className="w-full bg-brand-900 hover:bg-brand-500"
+          onClick={() => refetch()}
+          disabled={isFetching}
+        >
           Pesquisar
-        </Button> */}
+          {isFetching ? (
+            <Loader2 className="w-4 h-4 ml-4" />
+          ) : (
+            <Search className="w-4 h-4 ml-4" />
+          )}
+        </Button>
       </div>
     </aside>
   )

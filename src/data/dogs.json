@@ -17,7 +17,10 @@
         "Estilo de vida ativo",
         "Experiência prévia com cães"
       ],
-      "description": "Fido é um Labrador Retriever de alta energia que adora brincar de pegar a bola e fazer longas caminhadas. Ele é amigável tanto com pessoas quanto com outros cães e seria um ótimo companheiro para uma família ativa."
+      "description": "Fido é um Labrador Retriever de alta energia que adora brincar de pegar a bola e fazer longas caminhadas. Ele é amigável tanto com pessoas quanto com outros cães e seria um ótimo companheiro para uma família ativa.",
+      "is_vaccinated": true,
+      "is_castrated": false,
+      "gender": "Macho"
     },
     {
       "id": 2,
@@ -36,7 +39,10 @@
         "Treinamento de caixa de areia",
         "Casa amigável para gatos"
       ],
-      "description": "Whiskers é um charmoso gato Siamese com um nível de energia moderado. Ele adora carinhos e cochilos em lugares ensolarados da casa. Whiskers é o pet ideal para alguém que procura um amigo felino de baixa manutenção."
+      "description": "Whiskers é um charmoso gato Siamese com um nível de energia moderado. Ele adora carinhos e cochilos em lugares ensolarados da casa. Whiskers é o pet ideal para alguém que procura um amigo felino de baixa manutenção.",
+      "is_vaccinated": false,
+      "is_castrated": true,
+      "gender": "Fêmea"
     },
     {
       "id": 3,
@@ -55,7 +61,10 @@
         "Exercícios regulares",
         "Experiência anterior com cães"
       ],
-      "description": "Buddy é um Golden Retriever amoroso e leal. Ele gosta de longas caminhadas e brincadeiras no parque. Buddy já encontrou sua casa para sempre, onde é apreciado por sua família adotiva."
+      "description": "Buddy é um Golden Retriever amoroso e leal. Ele gosta de longas caminhadas e brincadeiras no parque. Buddy já encontrou sua casa para sempre, onde é apreciado por sua família adotiva.",
+      "is_vaccinated": true,
+      "is_castrated": false,
+      "gender": "Macho"
     },
     {
       "id": 4,
@@ -74,7 +83,10 @@
         "Compromisso com a escovação",
         "Casa tranquila"
       ],
-      "description": "Mittens é um gato Persa gentil e elegante, com um comportamento calmo. Ela gosta de relaxar pela casa e ser mimada com escovações regulares. Mittens está em busca de um lar tranquilo para sempre."
+      "description": "Mittens é um gato Persa gentil e elegante, com um comportamento calmo. Ela gosta de relaxar pela casa e ser mimada com escovações regulares. Mittens está em busca de um lar tranquilo para sempre.",
+      "is_vaccinated": true,
+      "is_castrated": true,
+      "gender": "Fêmea"
     },
     {
       "id": 5,
@@ -93,7 +105,10 @@
         "Passeios curtos",
         "Ambiente interno"
       ],
-      "description": "Rex é um Bulldog fácil de lidar com uma personalidade leal e amigável. Ele prefere um estilo de vida tranquilo e passeios curtos. Rex está em busca de uma família amorosa para chamar de sua."
+      "description": "Rex é um Bulldog fácil de lidar com uma personalidade leal e amigável. Ele prefere um estilo de vida tranquilo e passeios curtos. Rex está em busca de uma família amorosa para chamar de sua.",
+      "is_vaccinated": true,
+      "is_castrated": false,
+      "gender": "Macho"
     },
     {
       "id": 16,
@@ -112,7 +127,10 @@
         "Estilo de vida ativo",
         "Experiência prévia com cães"
       ],
-      "description": "Lola é uma Labrador Retriever de alta energia que adora brincar de pegar a bola e fazer longas caminhadas. Ela é amigável tanto com pessoas quanto com outros cães e seria um ótimo companheiro para uma família ativa."
+      "description": "Lola é uma Labrador Retriever de alta energia que adora brincar de pegar a bola e fazer longas caminhadas. Ela é amigável tanto com pessoas quanto com outros cães e seria um ótimo companheiro para uma família ativa.",
+      "is_vaccinated": false,
+      "is_castrated": true,
+      "gender": "Fêmea"
     },
     {
       "id": 17,
@@ -131,7 +149,10 @@
         "Companhia ocasional",
         "Cama confortável"
       ],
-      "description": "Simba é um gato malhado curioso e independente. Ele gosta de explorar seu ambiente e também aprecia longos cochilos ao sol. Simba está procurando por um lar tranquilo onde possa ser ele mesmo."
+      "description": "Simba é um gato malhado curioso e independente. Ele gosta de explorar seu ambiente e também aprecia longos cochilos ao sol. Simba está procurando por um lar tranquilo onde possa ser ele mesmo.",
+      "is_vaccinated": false,
+      "is_castrated": false,
+      "gender": "Macho"
     },
     {
       "id": 18,
@@ -150,7 +171,10 @@
         "Atividades ao ar livre",
         "Experiência com raças grandes"
       ],
-      "description": "Rocky é um Rottweiler leal e protetor. Ele adora brincar ao ar livre e também é um ótimo cão de guarda. Rocky está em busca de uma família que possa proporcionar a ele um ambiente seguro."
+      "description": "Rocky é um Rottweiler leal e protetor. Ele adora brincar ao ar livre e também é um ótimo cão de guarda. Rocky está em busca de uma família que possa proporcionar a ele um ambiente seguro.",
+      "is_vaccinated": true,
+      "is_castrated": false,
+      "gender": "Macho"
     },
     {
       "id": 19,
@@ -169,7 +193,10 @@
         "Carinho regular",
         "Casa tranquila"
       ],
-      "description": "Misty é uma gata Siamês elegante e afetuosa. Ela adora receber carinho e é conhecida por sua graciosidade. Misty encontrou um lar amoroso onde é apreciada por sua família adotiva."
+      "description": "Misty é uma gata Siamês elegante e afetuosa. Ela adora receber carinho e é conhecida por sua graciosidade. Misty encontrou um lar amoroso onde é apreciada por sua família adotiva.",
+      "is_vaccinated": true,
+      "is_castrated": true,
+      "gender": "Fêmea"
     },
     {
       "id": 20,
@@ -188,7 +215,10 @@
         "Atividades ao ar livre",
         "Experiência anterior com cães"
       ],
-      "description": "Bobby é um Golden Retriever amigável e brincalhão. Ele adora brincar de buscar e está sempre pronto para uma aventura ao ar livre. Bobby está em busca de uma família ativa que possa acompanhá-lo em suas travessuras."
+      "description": "Bobby é um Golden Retriever amigável e brincalhão. Ele adora brincar de buscar e está sempre pronto para uma aventura ao ar livre. Bobby está em busca de uma família ativa que possa acompanhá-lo em suas travessuras.",
+      "is_vaccinated": true,
+      "is_castrated": false,
+      "gender": "Macho"
     },
     {
       "id": 21,
@@ -207,7 +237,10 @@
         "Escovação regular",
         "Casa tranquila"
       ],
-      "description": "Milo é um gato Persa calmo e elegante. Ele adora relaxar e ser mimado com escovações. Milo encontrou um lar tranquilo onde pode viver sua vida com tranquilidade."
+      "description": "Milo é um gato Persa calmo e elegante. Ele adora relaxar e ser mimado com escovações. Milo encontrou um lar tranquilo onde pode viver sua vida com tranquilidade.",
+      "is_vaccinated": false,
+      "is_castrated": true,
+      "gender": "Macho"
     },
     {
       "id": 22,
@@ -226,7 +259,10 @@
         "Passeios diários",
         "Companhia constante"
       ],
-      "description": "Bella é uma Beagle alegre e sociável. Ela adora brincar e fazer novos amigos, tanto de duas quanto de quatro patas. Bella está em busca de uma família ativa que possa proporcionar a ela muito amor e diversão."
+      "description": "Bella é uma Beagle alegre e sociável. Ela adora brincar e fazer novos amigos, tanto de duas quanto de quatro patas. Bella está em busca de uma família ativa que possa proporcionar a ela muito amor e diversão.",
+      "is_vaccinated": true,
+      "is_castrated": false,
+      "gender": "Fêmea"
     },
     {
       "id": 23,
@@ -245,7 +281,10 @@
         "Espaço para explorar",
         "Companhia tranquila"
       ],
-      "description": "Oscar é um gato preto independente e misterioso. Ele gosta de explorar e é conhecido por seu charme enigmático. Oscar está procurando por um lar tranquilo onde possa ser livre para explorar."
+      "description": "Oscar é um gato preto independente e misterioso. Ele gosta de explorar e é conhecido por seu charme enigmático. Oscar está procurando por um lar tranquilo onde possa ser livre para explorar.",
+      "is_vaccinated": false,
+      "is_castrated": true,
+      "gender": "Macho"
     },
     {
       "id": 24,
@@ -264,7 +303,10 @@
         "Passeios curtos",
         "Companhia constante"
       ],
-      "description": "Charlie é um Dachshund leal e corajoso. Ele pode ser pequeno, mas tem um grande coração. Charlie encontrou um lar amoroso onde é apreciado por sua coragem e lealdade."
+      "description": "Charlie é um Dachshund leal e corajoso. Ele pode ser pequeno, mas tem um grande coração. Charlie encontrou um lar amoroso onde é apreciado por sua coragem e lealdade.",
+      "is_vaccinated": false,
+      "is_castrated": true,
+      "gender": "Macho"
     },
     {
       "id": 25,
@@ -283,164 +325,10 @@
         "Escovação regular",
         "Casa tranquila"
       ],
-      "description": "Lily é uma gata Persa elegante e tranquila. Ela gosta de relaxar em locais confortáveis e ser mimada com escovações. Lily está em busca de um lar tranquilo onde possa ser a rainha da casa."
-    },
-    {
-      "id": 26,
-      "name": "Teddy",
-      "type": "Cachorro",
-      "age": 3,
-      "color": "Marrom",
-      "breed": "Labrador Retriever",
-      "is_adopted": true,
-      "photo": "https://images.pexels.com/photos/1069009/pexels-photo-1069009.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "energy": "Alta",
-      "characteristic": "Brincalhão e amoroso",
-      "size": "Grande",
-      "adoption_requirements": [
-        "Quintal espaçoso",
-        "Atividades ao ar livre",
-        "Experiência com cães ativos"
-      ],
-      "description": "Teddy é um Labrador Retriever brincalhão e amoroso. Ele adora brincar de buscar e está sempre pronto para se divertir. Teddy encontrou um lar ativo que corresponde ao seu nível de energia."
-    },
-    {
-      "id": 27,
-      "name": "Sophie",
-      "type": "Gato",
-      "age": 2,
-      "color": "Cinza e Branco",
-      "breed": "Siamês",
-      "is_adopted": true,
-      "photo": "https://images.pexels.com/photos/3520420/pexels-photo-3520420.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      "energy": "Moderada",
-      "characteristic": "Afetuosa e curiosa",
-      "size": "Médio",
-      "adoption_requirements": [
-        "Ambiente interno",
-        "Carinho regular",
-        "Casa tranquila"
-      ],
-      "description": "Sophie é uma gata Siamês afetuosa e curiosa. Ela adora explorar e receber carinho. Sophie encontrou um lar amoroso onde é mimada com carinho constante."
-    },
-    {
-      "id": 28,
-      "name": "Milo",
-      "type": "Cachorro",
-      "age": 2,
-      "color": "Preto e Branco",
-      "breed": "Border Collie",
-      "is_adopted": false,
-      "photo": "https://images.pexels.com/photos/13821852/pexels-photo-13821852.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "energy": "Alta",
-      "characteristic": "Inteligente e enérgico",
-      "size": "Médio",
-      "adoption_requirements": [
-        "Espaço para brincadeiras",
-        "Exercícios mentais",
-        "Atividades ao ar livre"
-      ],
-      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
-    },
-
-    {
-      "id": 29,
-      "name": "Pedro",
-      "type": "Cachorro",
-      "age": 2,
-      "color": "Preto e Branco",
-      "breed": "Border Collie",
-      "is_adopted": false,
-      "photo": "https://images.pexels.com/photos/15201437/pexels-photo-15201437/free-photo-of-adoravel-encantador-cativante-animal.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "energy": "Alta",
-      "characteristic": "Inteligente e enérgico",
-      "size": "Médio",
-      "adoption_requirements": [
-        "Espaço para brincadeiras",
-        "Exercícios mentais",
-        "Atividades ao ar livre"
-      ],
-      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
-    },
-
-    {
-      "id": 30,
-      "name": "Camila",
-      "type": "Cachorro",
-      "age": 2,
-      "color": "Preto e Branco",
-      "breed": "Border Collie",
-      "is_adopted": false,
-      "photo": "https://images.pexels.com/photos/8179839/pexels-photo-8179839.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "energy": "Alta",
-      "characteristic": "Inteligente e enérgico",
-      "size": "Médio",
-      "adoption_requirements": [
-        "Espaço para brincadeiras",
-        "Exercícios mentais",
-        "Atividades ao ar livre"
-      ],
-      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
-    },
-
-    {
-      "id": 31,
-      "name": "Mauricio",
-      "type": "Cachorro",
-      "age": 2,
-      "color": "Preto e Branco",
-      "breed": "Border Collie",
-      "is_adopted": false,
-      "photo": "https://images.pexels.com/photos/4034256/pexels-photo-4034256.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "energy": "Alta",
-      "characteristic": "Inteligente e enérgico",
-      "size": "Médio",
-      "adoption_requirements": [
-        "Espaço para brincadeiras",
-        "Exercícios mentais",
-        "Atividades ao ar livre"
-      ],
-      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
-    },
-
-
-    {
-      "id": 32,
-      "name": "Claudin",
-      "type": "Cachorro",
-      "age": 2,
-      "color": "Preto e Branco",
-      "breed": "Border Collie",
-      "is_adopted": false,
-      "photo": "https://images.pexels.com/photos/3756602/pexels-photo-3756602.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "energy": "Alta",
-      "characteristic": "Inteligente e enérgico",
-      "size": "Médio",
-      "adoption_requirements": [
-        "Espaço para brincadeiras",
-        "Exercícios mentais",
-        "Atividades ao ar livre"
-      ],
-      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
-    },
-    {
-      "id": 33,
-      "name": "Raissa",
-      "type": "Cachorro",
-      "age": 2,
-      "color": "Preto e Branco",
-      "breed": "Border Collie",
-      "is_adopted": false,
-      "photo": "https://images.pexels.com/photos/8779275/pexels-photo-8779275.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load",
-      "energy": "Alta",
-      "characteristic": "Inteligente e enérgico",
-      "size": "Médio",
-      "adoption_requirements": [
-        "Espaço para brincadeiras",
-        "Exercícios mentais",
-        "Atividades ao ar livre"
-      ],
-      "description": "Milo é um Border Collie inteligente e enérgico. Ele adora aprender truques e participar de atividades ao ar livre. Milo está em busca de uma família que possa mantê-lo mentalmente estimulado e fisicamente ativo."
+      "description": "Lily é uma gata Persa elegante e tranquila. Ela gosta de relaxar em locais confortáveis e ser mimada com escovações. Lily está em busca de um lar tranquilo onde possa ser a rainha da casa.",
+      "is_vaccinated": true,
+      "is_castrated": false,
+      "gender": "Fêmea"
     }
-  ]
+]
 }
